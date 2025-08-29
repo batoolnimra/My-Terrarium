@@ -152,3 +152,28 @@ audio {
 .container {
   overflow: visible; /* important for dragging */
 }
+h2 {
+  font-size: 1.6rem;   /* default desktop size (~25px) */
+  text-align: center;
+  margin: 10px auto;
+  line-height: 1.4;
+  max-width: 90%;
+  word-wrap: break-word;
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  h2 {
+    font-size: 1.3rem;  /* ~20px */
+    padding: 0 10px;
+  }
+}
+
+/* Mobile phones */
+@media (max-width: 480px) {
+  h2 {
+    font-size: 1rem;   /* ~16px */
+    line-height: 1.3;
+    padding: 0 8px;
+  }
+}
